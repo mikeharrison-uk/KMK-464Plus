@@ -14,6 +14,7 @@ This repository contains the KMK firmware for a custom Amstrad 464 Plus keyboard
 - A microcontroller running CircuitPython.
 - KMK framework and dependencies.
 - Hardware wiring as per the defined pinout.
+- Keyboard region settings should be United Kingdom.
 
 ## Usage
 
