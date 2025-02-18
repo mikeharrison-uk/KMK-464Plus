@@ -16,12 +16,12 @@ keyboard.debug_enabled = False
 keyboard.modules.append(layers)
 keyboard.extensions.append(International())
 
-#Keys row and column pinout
+#Keys row and column pinout - change this to match the GPIO pins you have used on your board
 keyboard.col_pins = (board.GP16, board.GP17, board.GP18, board.GP19, board.GP20, board.GP21, board.GP22, board.GP26, board.GP27, board.GP28)
 keyboard.row_pins = (board.GP15, board.GP14, board.GP13, board.GP12, board.GP11, board.GP10, board.GP9, board.GP8, board.GP7, board.GP6)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-# Define the macros for non standard keys
+# Define the macros for non standard keys - UK regional keyboard settings selected on OS
 AT_SYMBOL = KC.MACRO('"')
 GBP_SYMBOL = KC.MACRO('#')
 HASH_SYMBOL = KC.MACRO('\\')
