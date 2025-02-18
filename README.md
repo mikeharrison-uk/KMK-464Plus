@@ -20,14 +20,14 @@ This repository contains the KMK firmware for a custom Amstrad 464 Plus keyboard
 
 1. Clone this repository.
 2. Install CircuitPython and ensure KMK dependencies are available on your device.
-3. Modify the keymap or macros if required.
+3. Modify the GPIO pins to match wiring of your microcontroller.
 4. Flash the firmware onto your microcontroller.
 5. Use your Amstrad 464 Plus as a USB keyboard.
 
 ## Custom Layers
 
 - **Default layer**: Standard keymap.
-- **Alternate layer**: Activated via the `F0` key.
+- **Alternate layer**: Activated via the `SHIFT` key.
 
 ## Licence
 
